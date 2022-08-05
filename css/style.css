@@ -1,0 +1,337 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/* Global css here*/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+
+/* Global css end*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	
+}
+.logo{
+	width: 110px;
+	display: block;
+
+	
+}
+.logo img{
+	width: 100%;
+	padding: 0px 0px 20px 0px;
+	
+}
+
+.header .navbar{
+	width: 100%;
+	float: right;
+	text-align: left;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a{
+	display: block;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #777;
+	font-weight: 600;
+	margin: 35px 0px 0px 20px;
+	transition: 1s;
+	
+	
+}
+.header .navbar li a:hover{
+	color: #2C263E;
+}
+.btn1{
+	margin-top: 30px;
+
+}
+.btn{
+	border: 1px solid #fff;
+	background: #DA1938;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 600;
+	font-height:26px;
+	font-family: 'Poppins', sans-serif;
+	transition: 1s;
+
+
+}
+.btn:hover{
+	color: #DA1938; 
+	background: #fff;
+	border: 1px solid #DA1938;
+	
+}
+/*content - section start*/
+
+.content-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 60px;
+}
+.inner-left{
+	width: 100%;
+	text-align: left;
+	float: left;
+
+}
+.inner-left h2{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700px;
+	color: #2C263E;
+	margin: 0px 30px 5px 0px;
+
+}
+.inner-left p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 30px 0px 0px;
+	
+}
+.inner-right{
+	width: 100%;
+	
+
+	
+}
+.img1{
+	width: 86%;
+	
+}
+
+/*demo start*/
+.demo h3{
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 600;
+	color: #2C263E;
+	margin: 0px 0px 15px;
+	text-align: center;
+
+}
+
+.demo p{
+    font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 0px 15px;
+	text-align: center;
+	font-style: italic;
+}
+/*demo end*/
+
+/*template start*/
+ .Template{
+	width: 100%;
+	float: left;
+	margin-right: 5px;
+
+}
+.Template .cl1 img{
+	width: 100%;
+	height: 360px;
+	
+}
+.Template .cl2 img{
+	width: 100%;
+	height: 360px;
+	
+}
+.Template .cl3 img{
+	width: 100%;
+	height: 360px;
+	
+}
+.Template .cl4 img{
+	width: 100%;
+	height: 360px;
+	
+}
+.tem1{
+	margin: 10px;
+	padding: 10px;
+}
+.tem2{
+	margin: 10px;
+	padding: 10px;
+}
+
+.tem3{
+	margin: 10px;
+	padding: 10px;
+}
+
+.tem4{
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
+/*template end*/
+/*feature start*/
+.feature h3{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 600;
+	color: #2C263E;
+	margin: 10px 0px 15px;
+	text-align: center;
+
+}
+
+.feature p{
+    font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 0px 15px;
+	text-align: center;
+	font-style: italic;
+}
+
+/*feature end*/
+/*box start*/
+
+.box-section{
+	width: 90%;
+	float: left;
+	margin-left: 70px;
+	padding: 40px 0px;
+	
+
+}
+.box-feature{
+   width: 80%;
+   height: 280px;
+   float: left;
+   margin: 5px 10px;
+   padding: 10px;
+   
+}
+.icon{
+	
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	color: #DA1938;
+	margin-top: 20px;
+	display: block;
+	
+}
+
+
+.box-feature h4{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: center;
+	color: #2C263E;
+	margin: 10px 0px;
+
+}
+.box-feature p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	text-align: center;
+	color: #777;
+
+}
+.box1{
+	background: #F5F5F5;
+
+}
+.box2{
+	background: #F5F5F5;
+
+}
+.box3{
+	background: #F5F5F5;
+
+}
+.box4{
+	background: #F5F5F5;
+
+}
+.box5{
+	background: #F5F5F5;
+
+}
+.box6{
+	background: #F5F5F5;
+
+}
+
+/*box end*/
+
+/*footer start*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	text-align: center;
+	background: #2C263E;
+}
+.footer h2{
+	color: #fff;
+	padding: 20px;
+
+}
+
